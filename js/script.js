@@ -100,7 +100,7 @@ gallery.forEach(e => {
     html += `
     <div class="car-slide-1 bg-warning bg-opacity-75 col-md-3 col-lg-3 col-11  rounded-top ms-3 py-3 px-1 mt-4 ">
             <div class="image-container px-2">
-              <img src="./images/${e.carImage}" alt="" class="img-fluid h-100">
+              <img src="./images/${e.carImage}" alt="" class="img-fluid">
             </div>
             <div class="gallery-info mx-2   p-2 py-2 bg-primary bg-opacity-25 rounded">
               <h5>${e.carNameModel}</h5>
