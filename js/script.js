@@ -51,7 +51,7 @@ let gallery = [
     },
     {
       carImage: 'cadillac.jpg',
-      carNameModel: 'CADILLAC',
+      carNameModel: 'VINTAGE CADILLAC V-16',
       carLogo: '',
       carPrice: '#31,000,000',
       carUse: 'Nigerian Used',
@@ -71,7 +71,7 @@ let gallery = [
     },
     {
       carImage: 'car-sport4.jpg',
-      carNameModel: 'Toyota Hilux',
+      carNameModel: 'FORD MUSTANG SVT COBRA',
       carLogo: '',
       carPrice: '#13,000,000',
       carUse: 'Nigerian Used',
@@ -81,10 +81,10 @@ let gallery = [
     },
     {
       carImage: 'car-vintage.jpg',
-      carNameModel: 'VINTAGE',
+      carNameModel: 'LADA VINTAGE',
       carLogo: '',
       carPrice: '#20,000,000',
-      carUse: 'NLondon Used',
+      carUse: 'London Used',
       carLocation: 'Lagos'
         
 
