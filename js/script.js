@@ -14,7 +14,7 @@ let gallery = [
       carNameModel: 'TOYOTA SEDAN',
       carLogo: '',
       carPrice: '#4,000,000',
-      carUse: 'Nigerian Used',
+      carUse: 'Brand New',
       carLocation: 'Abuja'
         
 
@@ -24,7 +24,7 @@ let gallery = [
       carNameModel: 'Benz E-342',
       carLogo: '',
       carPrice: '#18,000,000',
-      carUse: 'Nigerian Used',
+      carUse: 'Germany Used',
       carLocation: 'Calabar'
         
 
@@ -34,7 +34,7 @@ let gallery = [
       carNameModel: 'BMW',
       carLogo: '',
       carPrice: '#11,000,000',
-      carUse: 'Nigerian Used',
+      carUse: 'Brand New',
       carLocation: 'Lagos'
         
 
@@ -64,7 +64,7 @@ let gallery = [
       carNameModel: 'AUDI SPORT',
       carLogo: '',
       carPrice: '#7,000,000',
-      carUse: 'Nigerian Used',
+      carUse: 'Brand New',
       carLocation: 'Port Harcourt'
         
 
@@ -89,6 +89,36 @@ let gallery = [
         
 
     },
+    {
+      carImage: 'mercedes-daimler.jpg',
+      carNameModel: 'MERCEDEZ DAILMER',
+      carLogo: '',
+      carPrice: '#7,000,000',
+      carUse: 'Brand New',
+      carLocation: 'Port Harcourt'
+        
+
+    },
+    {
+      carImage: 'ferari.jpg',
+      carNameModel: 'FERARI',
+      carLogo: '',
+      carPrice: '#13,000,000',
+      carUse: 'Nigerian Used',
+      carLocation: 'Lagos'
+        
+
+    },
+    {
+      carImage: 'porsche.jpg',
+      carNameModel: 'PORSCHE',
+      carLogo: '',
+      carPrice: '#20,000,000',
+      carUse: 'Brand New',
+      carLocation: 'Kaduna'
+        
+
+    },
     
     
 ];
@@ -105,7 +135,7 @@ gallery.forEach(e => {
             <div class="gallery-info mx-2   p-2 py-2 bg-primary bg-opacity-25 rounded">
               <h5>${e.carNameModel}</h5>
               <h5 class="fs-6">${e.carPrice}</h5>
-              <p class="fs-6">Nigeria Used</p>
+              <p class="fs-6">${e.carUse}</p>
               <div class="location d-flex">
                 <div class="image-container">
                   <img src="./images/location-icon.svg" alt="location_icon">
@@ -123,6 +153,20 @@ gallery.forEach(e => {
     console.log(galleryContent.innerHTML);
     
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

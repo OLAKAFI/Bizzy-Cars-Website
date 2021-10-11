@@ -27,7 +27,10 @@
                 <a class="nav-link text-center " href="./gallery.html">Gallery</a>
               </li>
               <li class="nav-item fs-5 mx-3">
-                <a class="nav-link text-center" href="./contact.html"> Contact</a>
+                <a class="nav-link text-center" href="#" > About</a>
+              </li>
+              <li class="nav-item fs-5 mx-3">
+                <a class="nav-link text-center" href="#"> Contact</a>
               </li>
               
             </ul>
@@ -55,9 +58,9 @@
     background-size: cover; background-position: top-left;" >
       <div class="container text-white my-4 px-2">
         <button class="btn btn-danger my-2">Pick Area</button>
-        <p class="mb-3 fs-6 fw-5">October 10, 2021</p>
+        <p class="mb-3 fs-6 fw-5"  > <span id="datetime"></span></p>
         <h6 class="fs-4">Sport Cars</h6>
-        <h6 class="fs-5">Our sport cars are unique and classy. We also leave you with the option of customizing your machine to your taste
+        <h6 class="fs-6">Our sport cars  collections are unique and classy. We also leave you with the option of customizing your machine to your taste
 
         </h6>
 
@@ -72,9 +75,11 @@
     background-size: cover; background-position: ;" >
       <div class="container text-white my-4 px-2">
         <button class="btn btn-danger my-2">Pick Area</button>
-        <p class="mb-3 fs-6 fw-5">October 10, 2021</p>
-        <h6 class="fs-4">Sport Cars</h6>
-        <h6 class="fs-5">Aston Martins is one of beautiful peice you can find their. We have them in different specs and colours.
+        <p class="mb-3 fs-6 fw-5"  > <span id="dateTime"></span></p>
+        
+        
+        <h6 class="fs-4" >Aston Martin</h6>
+        <h6 class="fs-6">Aston Martin is one of beautiful peice you can find their. We have them in different specs and colours.
 
         </h6>
 
@@ -149,8 +154,16 @@
 
 
 
+    <script>
+      var dt = new Date();
+      document.getElementById("dateTime").innerHTML = dt.toDateString();
+      document.getElementById("datetime").innerHTML = dt.toDateString();
+      
+    </script>
 
+    
     <script src="./js/script.js"></script>
+    
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
